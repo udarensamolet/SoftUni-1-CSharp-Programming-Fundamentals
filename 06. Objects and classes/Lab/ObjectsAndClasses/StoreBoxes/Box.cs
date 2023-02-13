@@ -10,7 +10,7 @@ namespace StoreBoxes
         public Item Item { get; set; }
 
         public int ItemQuantity { get; set; }
-        
+
         public double PriceForBox { get; set; }
 
         public Box(string serialNumber, Item item, int itemQuantity, double priceForBox)

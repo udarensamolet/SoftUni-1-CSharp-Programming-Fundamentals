@@ -14,7 +14,8 @@ namespace VehicleCatalogue
 
             while (input != "end")
             {
-                string[] inputInfo = input.Split('/', StringSplitOptions.RemoveEmptyEntries).ToArray();
+                char del = ',';
+                string[] inputInfo = input.Split(del, StringSplitOptions.RemoveEmptyEntries).ToArray();
                 string type = inputInfo[0];
                 string brand = inputInfo[1];
                 string model = inputInfo[2];
